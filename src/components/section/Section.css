@@ -1,0 +1,50 @@
+.sectionWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeffec;
+  margin: auto;
+  width: 50%;
+  height: 360px;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  color: #123f0e;
+  border-radius: 4px;
+  align-self: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  -webkit-box-shadow: -9px 9px 30px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -9px 9px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -9px 9px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+section .firstArticle {
+  margin: 12px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+section .secondArticle {
+  margin: 12px;
+  font-size: 30px;
+}
+
+section ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 12px;
+}
+
+section li {
+  display: inline-block;
+  padding: 0 5px;
+}

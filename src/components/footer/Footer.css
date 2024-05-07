@@ -1,0 +1,11 @@
+footer {
+    color: #123f0e;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: large;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
